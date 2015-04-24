@@ -1,5 +1,5 @@
 body{
-background-color:#ff6699;
+background-color:#eb3a52;
 }
 
 h1{
@@ -7,4 +7,19 @@ text-align:center;
 color: #FFFFFF;
 display:block;
 }
+#naglowek {
+  background-color:gold;
+}
+#lewy {
+  float:left;
+}
 
+#prawy {
+  background-color:#EEE;
+  float:left;
+}
+
+#stopka {
+  background-color:gold;
+   clear:both;
+}

@@ -1,0 +1,9 @@
+{
+	"host":"localhost",
+	"user":"root",
+	"password":"",
+	"database":"vod",
+	"port":"3306",
+	"socket":"",
+	"path": "/vod/"
+}

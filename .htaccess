@@ -1,7 +1,7 @@
 Options +Indexes
 Options +FollowSymlinks
 
-RewriteBase /vod/
+#RewriteBase /design-Photog
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} -s [OR]

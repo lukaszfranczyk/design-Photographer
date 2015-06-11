@@ -1,9 +1,9 @@
 {
-	"host":"localhost",
-	"user":"root",
-	"password":"",
-	"database":"vod",
+	"host":"127.0.0.1",
+	"user":"photographer",
+	"password":"456photogr@phEr010",
+	"database":"photographer",
 	"port":"3306",
 	"socket":"",
-	"path": "/vod/"
+	"path": "/"
 }

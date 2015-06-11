@@ -17,7 +17,7 @@
 			$model_path = 'model/'.$modelName.'.php';
 			require_once $model_path;
 			$modelClass = ucfirst($modelName).'Model';
-			return new $modelClass;
+			return new $modelClass($this->_db);
 		}
 
 		public function execute()

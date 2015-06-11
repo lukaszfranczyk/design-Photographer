@@ -1,0 +1,6 @@
+DROP USER 'photographer'@'127.0.0.1';
+DROP DATABASE IF EXISTS `photographer`;
+CREATE DATABASE `photographer` DEFAULT CHARACTER SET utf8 COLLATE utf8_polish_ci;
+CREATE USER 'photographer'@'127.0.0.1' IDENTIFIED BY '456photogr@phEr010';
+GRANT USAGE ON *.* TO 'photographer'@'127.0.0.1' IDENTIFIED BY PASSWORD '*814BDF66CA679A78A174F3D33AC400B03697203C';
+GRANT ALL PRIVILEGES ON `photographer`.* TO 'photographer'@'127.0.0.1';

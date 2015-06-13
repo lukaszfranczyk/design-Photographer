@@ -1,18 +1,24 @@
 <?php 
-
-  require_once "controller/frames_content_controller.php";
+    
+    require_once 'lib/action/model_handling.php';
 
 	class GalleryController
 	{
+	  public function getData()
+	  {
+	  }
+	  
+	  
 		public function initialize(ActionAbstract $context)
         {
-//           $framesContentController = new FramesContentController();
-//           $framesContentController->getData();
-    
-     			//$context->view->renderView($context->config->view);
           if (!isset($_POST['action']))
             return;
-
+          
+  	     $modelHandler = new ModelHandling();
+  	  
+  	     if (!$this->_galleryModel)
+  	       $this->_galleryModel = $modelHandler->addModel("GalleryModel");
+  	     
           switch ($_POST['action'])
           {
             case 'getThumbs': $this->getThumbs(); break;
@@ -22,13 +28,8 @@
     	
     	private function getThumbs()
     	{
-    	  echo
-        	  '{' .
-        	     '{"imgId" : 1, "src" : "view/layout/img/thumb1.png"}' .
-        	     '{"imgId" : 2, "src" : "view/layout/img/thumb2.png"}' .
-        	     '{"imgId" : 3, "src" : "view/layout/img/thumb3.png"}' .
-        	     '{"imgId" : 4, "src" : "view/layout/img/thumb4.png"}' .
-        	  '}';
+          header('Content-Type: application/json');
+    	  echo json_encode($this->_galleryModel->getImages());
     	}
     	
     	private function getImageById()
@@ -39,11 +40,13 @@
     	  echo
         	'{' .
         	   '"id" : 1' .
-        	   '"path" : "view/layout/img/img.png"' .
+        	   '"src" : "view/layout/img/img.png"' .
         	   '"name" : "Imydz 1"' .
         	   '"album" : "Dummy album"' .
         	'}';
     	}
+    	
+    	private $_galleryModel = NULL;
 	}
 
 ?>

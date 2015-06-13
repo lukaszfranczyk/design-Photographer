@@ -2,7 +2,7 @@
 
   require_once "lib/db/db.php";
 
-	class FramesContentModel
+  class FramesContentModel
   {
     public function __construct(DB $db)
     {

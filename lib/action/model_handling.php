@@ -9,14 +9,14 @@
 		public function __construct()
 		{
 			$this->_db = new DB();
-			//$this->_db->connect();
+			$this->_db->connect();
 		}
 		
 		public function addModel($modelName) 
 		{
 			$model_path = 'model/'.$modelName.'.php';
 			require_once $model_path;
-			$modelClass = ucfirst($modelName).'Model';
+			$modelClass = ucfirst($modelName);
 			return new $modelClass($this->_db);
 		}
 

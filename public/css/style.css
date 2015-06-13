@@ -18,3 +18,150 @@ width:480px;
 margin:auto;
 text-align:center;
 }
+
+
+div#o_mnie{
+	background-color: #eb3a52;
+	width:100%;
+	height:100%; 
+	
+}
+
+	div#krzyzyk{
+	background: url("../img/krzyzyk.png") no-repeat;
+	width:100px;
+	height:100px;
+	margin-left:12px;
+	margin-top: 12px;
+}
+
+
+
+
+
+div#wer_fran{
+	background: url("../img/wer_fran.png") no-repeat;
+	width:400px;
+	height:100px;
+	margin-top:4%;
+	margin-left:40%;
+
+}
+
+
+div#omnie{
+	background: url("../img/omnie.png") no-repeat;
+	width:400px;
+	height:80px;
+	margin-top:8%;
+	margin-left:40%;
+}
+
+
+div#portfolio{
+	background: url("../img/portfolio.png") no-repeat;
+	width:400px;
+	height:80px;
+	margin-top:0%;
+	margin-left:40%;
+}
+
+div#kontakt{
+	background: url("../img/kontakt.png") no-repeat;
+	width:400px;
+	height:80px;
+	margin-top:0%;
+	margin-left:40%;
+}
+
+div#facebook{
+	background: url("../img/facebook.png") no-repeat;
+	width:200px;
+	height:80px;
+
+	margin-left:40%;
+}
+
+div#zdjecia{
+	background: url("../img/zdjecia.png") no-repeat;
+	width:100px;
+	height:60px;
+margin-top:-3.5%;
+	margin-left:48%;
+		
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#kont{
+	background-color: #eb3a52;
+	width:100%;
+	height:100%;
+	margin-left:0%;
+	margin-top:10%;
+	
+}
+
+div#trzy_kreski	{
+background: url("../img/trzy_kreski.png") no-repeat;
+	
+	width:80px;
+	height: 80px;
+
+}
+
+div#text{
+	text-align: center; 
+	font-size: 160%;
+	color: #F5F5DC;
+	font-family: Verdana;
+
+
+}
+
+div#form{
+margin-left:45.3%;
+
+}
+
+div#form2{
+margin-left:45.3%;
+
+}
+
+
+div#form3{
+margin-left:0%;
+background-color: #eb3a52 ;
+
+
+}
+
+
+
+#button{
+	background: #eb3a52; 
+	color: #F5F5DC;
+	height:10%;
+	width:20%;
+	font-size:120%;
+}

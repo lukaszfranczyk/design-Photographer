@@ -10,7 +10,9 @@
 		"sections": {
 			"head": ["header.php", ""],
 			"main": ["main.php", ""],
-			"foot": ["footer.php", ""]
+			"foot": ["footer.php", ""],
+			"o_mnie": ["o_mnie.php", ""],
+			"kont": ["kont.php", ""]
 		}
 	}
 }

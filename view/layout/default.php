@@ -12,6 +12,8 @@
 	<body>
 		<div id="head"><?php include $sections['head']; ?></div>
 		<div id="main"><?php include $sections['main']; ?></div>
-		<div id="foot"><?php include $sections['foot']; ?></div>
+		<div id="foot"><?php include $sections['foot']; ?></div> 
+		<div id="o_mnie"><?php include $sections['o_mnie']; ?></div>
+		<div id="kont"><?php include $sections['kont']; ?></div>
 	</body>
 </html>

@@ -9,7 +9,7 @@
       $modelHandler = new ModelHandling();
 
       if (!$this->_framesContentModel)
-        $this->_framesContentModel = $modelHandler->addModel("FramesContent");
+        $this->_framesContentModel = $modelHandler->addModel("FramesContentModel");
 
       $this->_framesContentModel->getData();
     }

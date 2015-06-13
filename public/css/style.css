@@ -2,23 +2,26 @@ body{
 background-color:#FFFFFF;
 }
 
-div#main{
+div#mainPage{
 margin:auto;
-width:960px;
+width:100%;
 }
 
 div#slider{
-width:960px;
-height:480px;
-background-color:#FC378D;
+	background-image: url(../img/slider.png);
+	background-size: 100% auto no-repeat;
+width:100%;
+height:900;
 }
 
 div#welcome{
-width:480px;
-margin:auto;
+width:710px;
+margin:100px auto;
+vertical-align: middle;
 text-align:center;
 }
 
+/* <<<<<<< HEAD */
 
 div#o_mnie{
 	background-color: #eb3a52;
@@ -164,4 +167,96 @@ background-color: #eb3a52 ;
 	height:10%;
 	width:20%;
 	font-size:120%;
+/*======= */
+.title{
+	color: #ea2e49;
+	font-family: Source Sans Pro Regular, Verdana, Courier New;
+	font-size: 48px;
+}
+
+.text{
+	color: #6e6e6e;
+	font-family: Source Sans Pro Regular, Verdana, Courier New;
+	font-size: 18px;
+}
+
+div#history{
+	width: 100%;
+	height: 435px;
+}
+div#wera{
+	background-image: url(../img/weronika.png);
+	background-size: 100% auto;
+	width: 32%;
+	height: 100%;
+	margin-left: 8%;
+	float: left;
+}
+
+div#hisInfo{
+	width: 52%;
+	float: left;
+	margin-left: 3%;
+}
+
+.titleHis{
+	color: #ea2e49;
+	font-family: Source Sans Pro Regular, Verdana, Courier New;
+	font-size: 48px;
+	margin: 0px;
+}
+
+.menu{
+	color: #6e6e6e;
+	font-family: Source Sans Pro Regular, Verdana, Courier New;
+	font-size: 17px;
+}
+
+div#offer{
+	height: 500px;
+	width: 100%;
+}
+
+div#menu{
+	height: 500px;
+	width: 30%;
+	margin-left: 8%;
+	margin-top: 5%;
+	float: left;
+}
+
+div#gallery{
+	height: 500px;
+	width: 58%;
+	margin-left: 4%;
+	float: left;
+}
+
+div#gal1{
+	background-image: url(../img/gallerya.gif);
+	background-size: 100% auto no-repeat;
+	height: 500px;
+	width: 44%;
+	margin-right: 4%;
+	margin-top: 65px;
+	float: left;
+	/*<img src="../img/gallerya.gif" alt="" />*/
+}
+
+div#gal2{
+	background-image: url(../img/galleryb.gif);
+	background-size: 100% auto no-repeat;
+	height: 500px;
+	width: 44%;
+	margin-right: 8%;
+	margin-top: 65px;
+	float: left;
+}
+
+div#wspolpraca{
+	width:540px;
+	margin:120px auto;
+	vertical-align: middle;
+	text-align:center;
+/* >>>>>>> strona glowna */
 }

@@ -9,7 +9,7 @@
 		<?php echo $config['vendor']; ?>
 		<?php echo $config['js']; ?>
 	</head>
-	<body>
+	<body>		
 		<div id="head"><?php include $sections['head']; ?></div>
 		<div id="main"><?php include $sections['main']; ?></div>
 		<div id="foot"><?php include $sections['foot']; ?></div> 
